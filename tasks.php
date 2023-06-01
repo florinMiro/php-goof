@@ -16,7 +16,8 @@ if(isset($_POST['save_task'])){
     if(!$result){
         die("Query failed");
     }
-    
+
+
     $_SESSION['message'] = 'Task saved successfully';
     $_SESSION['message_type'] = 'success';
 
